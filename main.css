@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: rgb(222, 222, 222);
+    font-family: sans-serif;
+}
+#title {
+    text-align: center;
+}
+#text {
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    transform: translateX(-50%);
+    width: 800px;
+    min-height: 75%;
+    border: 3px solid rgb(147, 147, 133);
+    padding: 5px;
+    word-wrap: break-word;
+    text-align: justify;
+}
